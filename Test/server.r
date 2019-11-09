@@ -1,3 +1,7 @@
+# install.packages("shiny")
+library(shiny)
+
+
 function(input, output) {
   
   output$scatterPlot <- renderPlot({
